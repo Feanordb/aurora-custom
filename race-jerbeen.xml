@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Jerbeen</name>
+        <description>Uma raça de pequenos roedores com habilidades únicas.</description>
+        <author>Seu Nome</author>
+        <update version="1.0.0">
+            <file name="race-jerbeen.xml" url="URL_DO_SEU_ARQUIVO_XML" />
+        </update>
+    </info>
+    <element name="Jerbeen" type="Race" source="User" id="ID_RACE_JERBEEN">
+        <description>
+            <p>Os Jerbeen são pequenos roedores conhecidos por sua agilidade e inteligência. Originários de regiões áridas, eles desenvolveram habilidades únicas para sobreviver em ambientes desafiadores.</p>
+        </description>
+        <setters>
+            <set name="ability_score_increase">
+                <modifier>
+                    <ability>Dexterity</ability>
+                    <value>2</value>
+                </modifier>
+                <modifier>
+                    <ability>Charisma</ability>
+                    <value>1</value>
+                </modifier>
+            </set>
+            <set name="age">Jerbeens atingem a maturidade aos 5 anos e podem viver até 40 anos.</set>
+            <set name="alignment">Jerbeens tendem a ser bons e inclinados para alinhamentos legais devido à sua natureza cooperativa.</set>
+            <set name="size">Small</set>
+            <set name="speed">30</set>
+            <set name="languages">Common, Jerbeen</set>
+        </setters>
+        <features>
+            <feature name="Saltos Poderosos" description="Seu salto longo base é de 30 pés, e seu salto alto base é de 15 pés, com ou sem impulso." />
+            <feature name="Agilidade" description="Você pode se mover através do espaço de qualquer criatura que seja de tamanho maior que o seu." />
+            <feature name="Coragem" description="Você tem vantagem em testes de resistência de Força e em testes de resistência contra ser assustado, desde que esteja a 5 pés de um aliado que não esteja assustado ou incapacitado e que você possa ver e ouvir." />
+            <feature name="Táticas de Equipe" description="Você pode usar a ação de Ajudar como uma ação bônus." />
+        </features>
+    </element>
+</elements>
