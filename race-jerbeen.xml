@@ -5,7 +5,7 @@
         <description>Uma raça de pequenos roedores com habilidades únicas.</description>
         <author>Seu Nome</author>
         <update version="1.0.0">
-            <file name="race-jerbeen.xml" url="URL_DO_SEU_ARQUIVO_XML" />
+            <file name="race-jerbeen.xml" url="https://github.com/Feanordb/aurora-custom/blob/main/race-jerbeen.xml" />
         </update>
     </info>
     <element name="Jerbeen" type="Race" source="User" id="ID_RACE_JERBEEN">
